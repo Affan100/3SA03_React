@@ -64,7 +64,7 @@ class App extends React.Component {
           <div className="second">
           <div className="center-box">
           <div className="center-text">
-          <div className="text1"><h1 className="text">LAB_React_3SA03 6035512016</h1></div>
+          <div className="text1"><h1 className="text">LAB_3SA03_React 6035512016</h1></div>
           <div className="click">
           <div className="button-a">
           </div>
