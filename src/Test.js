@@ -1,7 +1,6 @@
 import React from 'react';
 import './Test.css';
 
-
 class Test extends React.Component {
     render() {
         let count_end = this.props.check_count > 3 ? 'area2' : '';      //check count //
