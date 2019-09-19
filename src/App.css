@@ -1,5 +1,8 @@
 body{
-  background-image: url("bg.jpg");
+  background-image: url("bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1980px;
   /* background-color: #61ffc3; */
   font-family: 'Roboto', 'Courier New', Courier, monospace;
 }
