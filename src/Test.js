@@ -1,8 +1,8 @@
 import React from 'react';
-import './Check.css';
+import './Test.css';
 
 
-class Check extends React.Component {
+class Test extends React.Component {
     render() {
         let count_end = this.props.check_count > 3 ? 'area2' : '';
         let count_ends = this.props.check_count > 3 ? "Game Over" : "Time : " + this.props.check_count;
@@ -16,4 +16,4 @@ class Check extends React.Component {
         )
     }
 }
-export default Check;
+export default Test;

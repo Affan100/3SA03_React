@@ -1,6 +1,6 @@
 import React from 'react';
 import Event from './Event';
-import Check from './Check';
+import Test from './Test';
 import './App.css';
 import Begin from './Begin'
 import _ from 'lodash';
@@ -52,9 +52,9 @@ class App extends React.Component {
     })
   }
   render() {
-    let check = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>Again!</h1></button>;
+    let test = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>Again!</h1></button>;
     let ans = this.state.completed === false ? '' : <h3 className="ans">Well done {message}</h3>;
-    let checks = this.state.completed === false ? '' : <h1 className="win">The Winner</h1>;
+    let tests = this.state.completed === false ? '' : <h1 className="win">The Winner</h1>;
     //let count_end = this.state.counter > 5 ? "Game Over" : "Counter : " + this.state.counter;
 
     return (
@@ -101,12 +101,12 @@ class App extends React.Component {
                   ))
                 }
               <div>
-                  <Check check_count={this.state.counter} />
+                  <Test check_count={this.state.counter} />
                 </div>
                 <div className="button-area">
-                  {check}
+                  {test}
                   {ans}
-                  {checks}
+                  {tests}
                 </div>
               </div>
             </div>
