@@ -62,19 +62,19 @@ class App extends React.Component {
         </div>
         <div className="first">
           <div className="second">
-          <div className="center-box">
-          <div className="center-text">
-          <div className="text1"><h1 className="text">LAB_3SA03_React 6035512016</h1></div>
-          <div className="click">
-          <div className="button-a">
-          </div>
-          <div className="box-myname">
-          <div></div>
-          </div>
-          </div>
-          </div>
-          </div>
-           <div>
+            <div className="center-box">
+              <div className="center-text">
+                <div className="text1"><h1 className="text">LAB_3SA03_React 6035512016</h1></div>
+                <div className="click">
+                  <div className="button-a">
+                  </div>
+                  <div className="box-myname">
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
               {
                 Array.from(this.state.chars).map((item, index) => (
                   <Event
@@ -98,8 +98,8 @@ class App extends React.Component {
                     />
                   ))
                 }
-              <div>
-                  <Test check_count={this.state.counter} />   
+                <div>
+                  <Test check_count={this.state.counter} />
                 </div>
                 <div className="button-area">
                   {test}
@@ -114,4 +114,4 @@ class App extends React.Component {
     )
   }
 }
-export default App;ไ
+export default App; 

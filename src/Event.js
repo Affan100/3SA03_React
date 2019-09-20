@@ -9,7 +9,7 @@ class Event extends React.Component {
         this.setState({
             active: true
         });
-        if (this.props.number > 5) {
+        if (this.props.number > 3) {
             this.setState({
                 active: true
             });
